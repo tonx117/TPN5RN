@@ -42,7 +42,7 @@ const App = () => {
   };
 
   const handleSkinsButtonPress = () => {
-    navigation.navigate("JinxSkins");
+    navigation.navigate("PokeAPIComponent");
   };
 
   return (
@@ -56,7 +56,7 @@ const App = () => {
           <Button title="Frases de Jinx" onPress={handleButtonPress} />
         </View>
         <View style={styles.button}>
-          <Button title="Jinx Skins" onPress={handleSkinsButtonPress} />
+          <Button title="Poke api" onPress={handleSkinsButtonPress} />
         </View>
       </View>
       <StatusBar style="auto" />

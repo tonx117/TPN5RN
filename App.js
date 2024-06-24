@@ -3,7 +3,7 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import App from "./AppJinx.js";
-import JinxSkinsScreen from "./JinxSkins.js";
+import PokeApi from "./PokeAPIComponent.js";
 
 const Stack = createStackNavigator();
 
@@ -16,7 +16,7 @@ const AppNavigator = () => {
           component={App}
           options={{ headerShown: false }}
         />
-        <Stack.Screen name="JinxSkins" component={JinxSkinsScreen} />
+        <Stack.Screen name="PokeAPIComponent" component={PokeApi} />
       </Stack.Navigator>
     </NavigationContainer>
   );
